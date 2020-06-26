@@ -4,6 +4,35 @@
 }
 
 html{scroll-behavior: smooth;}
+
+@font-face {
+  font-family: 'lato';
+  src: url(materials/fonts/Lato-Thin.ttf);
+  font-style: normal;
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'lato';
+  src: url(materials/fonts/Lato-Light.ttf);
+  font-style: normal;
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'lato';
+  src: url(materials/fonts/Lato-Regular.ttf);
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'lato';
+  src: url(materials/fonts/Lato-Bold.ttf);
+  font-style: normal;
+  font-weight: 800;
+}
+
 body {margin: 0px;background-color: #fff;font-family: 'Lato', sans-serif;}
 
 /*----------------------------------------------------
