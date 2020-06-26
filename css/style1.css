@@ -137,7 +137,7 @@ portfolio
 .bg-title1{margin-top:0px;position: absolute;z-index: 1;width: 100%;}
 .portfolio__container{height:100%;display: flex;justify-content: flex-end;align-items: center;}
 .portfolio__main-copy{width: 40%;margin:0;margin-top: 150px;margin-right: 120px;z-index: 2;}
-.large1{color:#e5e5e5;font-size: 60px;text-align: right;margin: 5px 0 0; padding: 1px 0 4px;font-weight: 800;letter-spacing: 1px;}
+.large1{color:#e5e5e5;font-size: 50px;text-align: right;margin: 5px 0 0; padding: 1px 0 4px;font-weight: 800;letter-spacing: 1px;}
 .large2{font-size: 20px;font-weight: 400;text-align:right;color: #9a9a9a;margin: 10px 0 0; padding: 2px 0 3px;}
 .large2 h3{line-height: 30px;}
 
@@ -177,7 +177,7 @@ about me
 .bg-title2{margin-top: 0px;position: absolute;z-index: 1;width: 100%;}
 .aboutme__container{height:100%;display: flex;justify-content: flex-start;align-items: center;}
 .aboutme__main-copy {width: 40%;margin: 0 0;margin-top: 150px;margin-left: 120px;z-index: 2;}
-.large3{color:#363636;font-size: 60px;text-align: left;margin: 5px 0 0; padding: 1px 0 4px;font-weight: 800;letter-spacing: 1px;}
+.large3{color:#363636;font-size: 50px;text-align: left;margin: 5px 0 0; padding: 1px 0 4px;font-weight: 800;letter-spacing: 1px;}
 .large4{font-size: 20px;font-weight: 400;text-align: left;color: #9a9a9a;margin: 10px 0 0; padding: 2px 0 3px;}
 h3{font-size: 20px;font-weight: 400;color: #9a9a9a;margin: 10px 0 0; padding: 2px 0 3px;}
 
