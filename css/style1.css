@@ -178,7 +178,7 @@ about me
 .aboutme__container{height:100%;display: flex;justify-content: flex-start;align-items: center;}
 .aboutme__main-copy {width: 40%;margin: 0 0;margin-top: 150px;margin-left: 120px;z-index: 2;}
 .large3{color:#363636;font-size: 50px;text-align: left;margin: 5px 0 0; padding: 1px 0 4px;font-weight: 800;letter-spacing: 1px;}
-.large4{font-size: 20px;font-weight: 400;text-align: left;color: #9a9a9a;margin: 10px 0 0; padding: 2px 0 3px;}
+.large4{font-size: 20px;font-weight: 400;text-align: justify;color: #9a9a9a;margin: 10px 0 0; padding: 2px 0 3px;}
 h3{font-size: 20px;font-weight: 400;color: #9a9a9a;margin: 10px 0 0; padding: 2px 0 3px;}
 
 .my-photo2{float: right;position: absolute;right:50px;width:50%;z-index: 1;opacity: 100%;object-fit: cover;}
