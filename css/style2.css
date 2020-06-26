@@ -1,0 +1,265 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html{scroll-behavior: smooth;}
+body {margin: 0px;background-color: #fff;font-family: 'Lato', sans-serif;}
+
+/*----------------------------------------------------
+scrollbar
+----------------------------------------------------*/
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #e5e5e5;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #9a9a9a;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #363636;
+}
+
+/*----------------------------------------------------
+header
+----------------------------------------------------*/
+
+.animate{
+  -webkit-transition: all 0.3s ease-out;
+          transition: all 0.3s ease-out;
+}
+
+
+ul {list-style: none;}
+
+.header{background-color: #e5e5e5;}
+.header__logo{width: 150px;float:left; display: block;margin-left: 10px;padding: 10px;}
+.header__logo__image{width: 100%;}
+.header__menu{float:right; margin: 0;padding: 0;}
+.header__menu__item{font-size: 13px;display: inline-block; font-weight: 800;text-transform: uppercase;}
+.header__menu__item a{color:#363636; display: block;margin: 13px 25px;padding: 2px 0;text-decoration: none;border-bottom: 0 solid;}
+.header__menu__item a:hover{color: #9a9a9a; transform: translatex(5px);transition: 0.5s;}
+.header__icon-bar {display: block;float: right;padding: 20px;display: none;}
+.header__icon-bar span{display: block;height: 3px;width: 30px;background: #363636;margin-bottom: 5px;}
+
+
+/*----------------------------------------------------
+about - main
+----------------------------------------------------*/
+
+.about {
+  width: 100%;
+  height: 700px;
+  position: relative;
+  overflow: hidden;
+  background-color: #e5e5e5;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.about__container{height:100%;width: 50%;margin:0 30px;display: flex;justify-content:center;align-items: center;}
+.about__main-copy {width: 100%;}
+.my-photo{display: flex;justify-content: center;align-items: flex-end;margin-left:70px;height: 100%; width: 50%;max-width:400px;background-image: linear-gradient(#67CB71, #5C78A3);}
+.max-photo1{width: 120%;height: auto;object-fit: contain;}
+.uppercase{color: #9a9a9a;font-size: 2vw; font-weight: 400;letter-spacing: 2px;text-transform: uppercase;padding-top: 5px;padding-bottom: 5px;}
+.large0{font-size: 6vw;margin: 5px 0 0; padding: 1px 0 4px;font-weight: 800;text-transform: uppercase;line-height: 7vw;}
+.large00{font-size: 2vw;font-weight: 400;color: #8f8f8f;margin: 10px 0 0; padding: 2px 0 3px;line-height: 3vw;}
+
+
+@keyframes floating {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, 0px); }
+}
+
+.about__links{margin: 20px 0 0;display: flex;flex-direction: row;display: flex;justify-content: flex-start;}
+.about__links__write{box-shadow: 5px 5px 5px #dedede;padding: 15px;font-size: 18px;font-weight: 800;background-color: #363636; border-radius: 5px;color: #fff;text-decoration: none;justify-content: flex-start;}
+.about__links__write:hover{background-image: linear-gradient(90deg, #5C78A3, #67CB71);transform: scale(1.1);transition: 0.5s;}
+
+
+
+/*----------------------------------------------------
+about myself
+----------------------------------------------------*/
+
+.aboutmyself-container {
+  height: 100%;
+  padding: 0 150px;
+}
+
+.aboutmyself-container__textbox{height:100%;display: flex; flex-direction: column;justify-content: center;align-items: center;padding:80px 0;}
+.sword1, .employee1{width: 100px;}
+.down1{width: 70px;margin-top: 40px;}
+.title1{font-size: 60px;font-weight: 800;text-transform: uppercase;margin-top: 30px;margin-bottom: 30px;letter-spacing: 2px;}
+.text1{color:#8F8F8F;font-size: 20px; font-weight: 400;text-align: justify;line-height: 25px;letter-spacing: 0.5px;word-spacing: 1px;}
+.text1__em{color:#8F8F8F;font-size: 30px; font-weight: 400;margin-bottom: 20px;}
+.text1 strong:hover{color: #67CB71;cursor:pointer;}
+
+.cv-button{margin-top: 50px;display: flex;flex-direction: row;}
+.cv-button__links{box-shadow: 5px 5px 5px #dedede;padding: 15px;background-color: #363636; border-radius: 5px;color: #fff;text-decoration: none;font-size: 18px;font-weight: 800;justify-content: flex-start;}
+.cv-button__links:hover{background-image: linear-gradient(90deg, #5C78A3, #67CB71);transform: scale(1.1);transition: 0.5s;}
+
+/*-------------------------------------
+hr - division
+-------------------------------------*/
+
+.hr-division div{width: 100%;display: flex;justify-content: center;align-items: center;height: 200px;margin:10px 0 10px 0;background-image: linear-gradient(90deg, #5C78A3, #67CB71);}
+.hr div{display: flex;justify-content: space-around;align-items: center;}
+.logo1{height: 40%;margin: 20px 10px;}
+
+/*-------------------------------------
+Contact - form
+-------------------------------------*/
+
+.contact-container {
+  height: 100%;
+  padding: 0 150px;
+  background-color: #e5e5e5;
+}
+
+.contact-container__textbox{height:100%;display: flex; flex-direction: column;justify-content: center;align-items: center;padding:80px 150px;}
+.contact1{text-decoration: none;display: flex;flex-direction: column;padding-top: 20px;padding-bottom:10px;width: 100%;height: 70px;}
+.contact-link{text-decoration: none;font-weight: 800;font-size: 20px;color:#363636;border: 3px solid #363636;margin-top:10px;padding: 10px;border-radius: 20px;display: flex;justify-content: center;}
+.contact-link:hover{text-decoration: none;font-weight: 800;font-size: 20px;color:#67CB71;border: 3px solid #67CB71;}
+
+
+
+
+
+/*-------------------------------------
+Footer
+-------------------------------------*/
+
+footer{position: relative;}
+.greenback{padding-bottom: 2px;border-bottom: 4px solid green;}
+.whiteback{padding-bottom: 2px;border-bottom: 4px solid white;}
+.redback{padding-bottom: 2px;border-bottom: 4px solid #ff0000;}
+.footer1{height: 130px; width: 100%;background-color: #363636; display: flex;justify-content: center;align-items: center;}
+.copyright{color: #fff;font-size: 20px;}
+
+
+/*---------------------------------------------
+go top button
+---------------------------------------------*/
+
+.gotopbtn{position: fixed;width: 50px;height: 50px;background: #b3b3b3;opacity: 80%;border-radius: 50px;bottom: 40px;right: 50px;text-decoration: none;text-align: center;line-height: 50px;color: white;display: flex;align-items: center;justify-content: center;}
+.gotopbtn:hover{background: #67CB71;transform: scale(1.1);transition: 0.3s;}
+.arrow{width: 50%;height: 50%;}
+
+/*---------------------------------------------
+send email button
+---------------------------------------------*/
+
+.sendemail{position: fixed;width: 50px;height: 50px;background: #b3b3b3;opacity: 80%;border-radius: 50px;bottom: 40px;left: 50px;text-decoration: none;text-align: center;line-height: 50px;color: white;display: flex;align-items: center;justify-content: center;}
+.sendemail:hover{background: #67CB71;transform: scale(1.1);transition: 0.3s;}
+.email{width: 50%;height: 50%;}
+
+
+
+
+
+/*-------------------------------------
+Tablet
+-------------------------------------*/
+
+@media (max-width:768px){
+  body{width:100%;}
+  .copyright{font-size: 16px;}
+  .header__logo{width: 120px;}
+  .header__menu__item a{margin: 13px 10px;}
+  .about {width: 100%;height: 550px;}
+  .about__container{width: 60%;margin:0;}
+  .about__main-copy{margin:20px;}
+  .about__links{justify-content: center;}
+  .about__links__write{font-size: 3vw;font-weight: 800;}
+  .uppercase{font-size: 3vw;}
+  .large0{font-size: 6vw;line-height: 7vw;letter-spacing: 1px;margin-top:0;}
+  .large00{font-size: 3vw;line-height: 4vw;letter-spacing: 1px;}
+  .my-photo{margin-left:0;height: 100%; width:50%;}
+  .max-photo1{width: 400px;height: 400px;object-fit: contain;}
+  .aboutmyself-container{padding: 0 100px;}
+  .aboutmyself-container__textbox{padding:80px 0;}
+  .hr-division div{height: 100px;margin:10px 0 10px 0;}
+  .logo1{height: 50%;margin: 20px 5px;}
+  .contact-container {padding: 0 30px;position: relative;z-index: 0;}
+  .contact-container__textbox{padding:20px 0;}
+  .contact1{display: flex;flex-direction: column;height: 70px;}
+  .contact-link{margin-top:5px;}
+}
+
+
+
+/*-------------------------------------
+Smartphone
+-------------------------------------*/
+
+@media (max-width:426px){
+  body{width:100%;}
+
+  .header{background:#e5e5e5;}
+  .header__icon-bar{display:block;}
+  .header__menu{width:100%; height: 0px; overflow: hidden;}
+  .header__menu__item{display: block;margin-left: 40px;}
+  .header__menu__item a:hover{transform: translate(10px); transition: .5s;}
+  .is-open {height: 150px; overflow: auto;}
+
+  .about {width: 100%;height: 650px;justify-content: center;}
+  .about__container{position: absolute;z-index: 1;justify-content: center;color:#fff;margin: 0;height: 100%; width:70%;max-width: 400px;align-items: flex-start;}
+  .about__main-copy {color:#fff;margin: 20px;}
+  .about__links__write{display: none;}
+  .uppercase{color:#fff;font-size: 3vw;}
+  .large0{color:#fff;font-size: 7vw;line-height: 8vw;letter-spacing: 1px;margin-top:0;}
+  .large00{color:#fff;font-size: 4vw;line-height: 6vw;letter-spacing: 1px;margin-top: 5px;}
+  .my-photo{position: absolute;z-index: 0;justify-content: center;margin-left:0;height: 100%; width:80%;}
+  .max-photo1{width: 400px;height: 400px;object-fit: contain;}
+  .aboutmyself-container{padding: 0 50px;}
+  .aboutmyself-container__textbox{padding:80px 0;}
+  .title1{text-align: center;font-size: 40px;}
+  .text1__em{text-align: center;}
+  .hr-division div{height: 100px;margin:10px 0 10px 0;}
+  .logo1{height: 30%;margin: 7px;}
+  .contact-container {padding: 0 30px;position: relative;z-index: 2;}
+  .contact-container__textbox{padding:20px 0;}
+  .contact1{display: flex;flex-direction: column;height: 70px;}
+  .contact-link{margin-top:5px;}
+
+  .gotopbtn{width:35px;height:35px;opacity: 50%}
+  .gotopbtn:hover{opacity: 100%}
+  .sendemail{display: none;}
+  .footer1{z-index: 2;}
+  .copyright{font-size: 12px;}
+
+
+
+
+}
+
+
+
+
+/*-------------------------------------
+clearfix
+-------------------------------------*/
+
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */

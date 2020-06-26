@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Massimiliano Storgato</title>
+  <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+  <link rel="stylesheet" href="css/style1.css">
+  <link rel="icon" href="materials/photos/logo.ico">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <header class="header clearfix">
+    <a href="index.html" class="header__logo"><img src="materials/photos/Logo_MS_Morte-Nera-1.png" class="header__logo__image"alt="logo massimiliano storgato"></a>
+    <a href="" class="header__icon-bar">
+      <span></span>
+      <span></span>
+      <span></span>
+    </a>
+    <ul class="header__menu animate">
+      <li class="header__menu__item"><a href="#scrivania">scrivania</a></li>
+      <li class="header__menu__item"><a href="#about">chi sono</a></li>
+      <li class="header__menu__item"><a href="about.html#contact">contatti</a></li>
+    </ul>
+  </header>
+
+  <div class="hello-world">
+    <img src="materials/photos/bg_home_1.png" alt="Creativity" class="bg-title">
+    <div class="hello-world__container">
+      <img class="my-photo" src="materials/photos/temple_02.png" alt="massimiliano storgato">
+      <div class="hello-world__main-copy">
+       <h5 class="uppercase">Massimiliano Storgato</h5>
+       <h1 class="large0">Architect & <br> UX/UI Designer</h1>
+       <h3 class="large00"> Mi occupo di architettura digitale, web design, grafica vettoriale e raster, fotografia e modellazione 3D.
+         <br>Sono sempre alla ricerca di nuove opportunità, quindi sto migliorando le mie capacità su tutta la linea per contribuire a migliorare la vita delle persone.
+       </h3>
+       <nav class="hello-world__links">
+         <a href="about.html #contact" class="hello-world__links__write">Scrivimi</a>
+       </nav>
+      </div>
+    </div>
+  </div>
+
+  <div class="portfolio">
+    <img src="materials/photos/bg_home_2.png" alt="Precision" class="bg-title1">
+    <div id="scrivania" class="portfolio__container">
+      <img class="my-photo1" src="materials/photos/desk03.png" alt="massimiliano storgato">
+      <div class="portfolio__main-copy">
+       <h1 class="large1">Portfolio: <br> cosa bolle in pentola?</h1>
+       <h3 class="large2">
+         Sono un lavoratore digitale alla ricerca di un ambiente stimolante e collaborativo.
+         <br> Ho più di 5 anni di esperienza in architettura, restauro, rilievo, nella realizzazione di grafiche, disegno digitale e modellazione 3D.
+         <br> Uso un sacco di software, così tanti che non riesco più a ternere il conto.
+       </h3>
+       <div class="portfolio__links">
+         <a href="materials/pdf/CV-Book_MS_2020-1.pdf" target="_blank" class="portfolio__links__projects">Scarica il mio Book</a>
+       </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="aboutme">
+    <img src="materials/photos/bg_home_3.png" alt="Teamwork" class="bg-title2">
+    <div id="about" class="aboutme__container">
+      <img class="my-photo2" src="materials/photos/camera04.png" alt="massimiliano storgato">
+      <div class="aboutme__main-copy">
+       <h1 class="large3">Vuoi sapere <br> qualcosa su di me?</h1>
+       <h3 class="large4"> Ho lavorato con Università, studi tecnici professionali, organizzazioni pubbliche e fondazioni private per la realizzazione di vari progetti.
+         <br> Ho vinto una borsa di studio e svolto con grande soddisfazione uno stage presso il servizio immobili della Banca d'Italia nel 2019...
+       </h3>
+       <div class="aboutme__links">
+         <a href="about.html" class="aboutme__links__about">Scopri chi sono</a>
+       </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer1">
+    <p class="copyright">Realizzato in <font class="greenback" color="white">It</font><font class="whiteback" color="white">al</font><font class="redback" color="white">ia</FONT> da: Massimiliano <strong>Storgato</strong>, 2020</p>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function(){
+
+       $(".header__icon-bar").click(function(e){
+
+         $(".header__menu").toggleClass('is-open');
+         e.preventDefault();
+       });
+    });
+  </script>
+
+  <a href="#" class="gotopbtn"><img class="arrow" src="materials/photos/arrows.svg" alt="arrow button up"></a>
+  <a href="mailto:storgatomassimiliano@gmail.com" class="sendemail"><img class="email" src="materials/photos/email.svg" alt="email button send"></a>
+
+
+</body>
+</html>
