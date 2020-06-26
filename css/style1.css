@@ -7,28 +7,28 @@ html{scroll-behavior: smooth;}
 
 @font-face {
   font-family: 'lato';
-  src: url(materials/fonts/Lato-Thin.ttf);
+  src: url(materials/fonts/LatoLatin-Thin.woff) format('woff');
   font-style: normal;
   font-weight: 100;
 }
 
 @font-face {
   font-family: 'lato';
-  src: url(materials/fonts/Lato-Light.ttf);
+  src: url(materials/fonts/LatoLatin-Light.woff) format('woff');
   font-style: normal;
   font-weight: 200;
 }
 
 @font-face {
   font-family: 'lato';
-  src: url(materials/fonts/Lato-Regular.ttf);
+  src: url(materials/fonts/LatoLatin-Regular.woff) format('woff');
   font-style: normal;
   font-weight: 400;
 }
 
 @font-face {
   font-family: 'lato';
-  src: url(materials/fonts/Lato-Bold.ttf);
+  src: url(materials/fonts/LatoLatin-Bold.woff) format('woff');
   font-style: normal;
   font-weight: 800;
 }
